@@ -1,0 +1,12 @@
+## Datenexploration – Erste Erkenntnisse
+
+- 50.410 Transaktionen, keine fehlenden Werte oder Duplikate
+- Nur ~20 % der Transaktionen sind erfolgreich
+- 4 PSPs, am häufigsten: UK_Card (52 %)
+- 3D-secured Transaktionen sind selten (~24 %)
+- Auffälligkeit: viele Transaktionen in der gleichen Minute, gleichem Betrag & Land → Mehrfachversuche
+
+## Nächste Schritte
+- Visualisierungen zur Erfolgsrate je PSP
+- Einfluss von 3D_secured, Karte, Land analysieren
+- Baseline-Modell vorbereiten
