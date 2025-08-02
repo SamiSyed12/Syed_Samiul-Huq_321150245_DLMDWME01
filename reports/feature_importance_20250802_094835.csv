@@ -1,0 +1,12 @@
+feature,importance
+attempt_number,0.3912097
+total_attempts,0.24765362
+PSP_Simplecard,0.08004869
+PSP_UK_Card,0.049712397
+PSP_Moneycard,0.04732834
+3D_secured,0.04177505
+card_Master,0.03851311
+card_Visa,0.037703067
+amount,0.02752253
+country_Switzerland,0.01952031
+country_Germany,0.01901326
