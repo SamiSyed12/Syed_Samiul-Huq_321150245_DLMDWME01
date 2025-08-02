@@ -8,40 +8,14 @@ Das Modell soll dabei zwei Ziele gleichzeitig optimieren:
 2. Minimierung der Transaktionskosten gemäß PSP-Gebührenstruktur
 
 
- Woche 1: Daten verstehen und erstes Modell
+## Verwendete Bibliotheken
 
-Tag 1–2: Projektstruktur & Datenexploration
-Git-/Ordnerstruktur anlegen (CRISP-DM oder MS-Style)
-Excel-Daten laden, Spalten verstehen
-Datenqualität prüfen: fehlende Werte, Duplikate, Datentypen
-Zahlungsversuche identifizieren (zeitnah, gleicher Betrag, gleiches Land)
-🧠 Ziel: Datensatz vollständig verstanden, Datenprobleme erkannt
-
-Tag 3–4: Explorative Analyse & Visualisierungen
-Erfolgsquoten nach PSP, Land, Betrag, 3D-secured etc. visualisieren
-Transaktionskosten nach PSP darstellen
-erste Hypothesen formulieren (z.B. „3D secured erhöht Erfolgsrate“)
-📊 Ziel: Businessverständnis durch EDA aufbereitet
-
-Tag 5–6: Baseline-Modell
-Einfache Klassifikation z. B. nach Mehrheit der erfolgreichen PSPs
-Oder Entscheidungsregel: „Wähle PSP mit niedrigsten Fehlkosten“
-Modell aufteilen: Training/Test
-⚙️ Ziel: Vergleichspunkt für späteres Modell
-
-Tag 7: Fortgeschrittenes Modell (1. Version)
-z. B. Random Forest, XGBoost oder logistische Regression
-Ziel: Wahrscheinlichkeit für „success = 1“ vorhersagen
-Trainingsdaten ggf. anpassen (z. B. gewichtete Kostenfunktion)
-🤖 Ziel: Modell steht technisch und läuft auf echten Daten
-
-🔷 Woche 2: Optimierung, Interpretation & Dokumentation
-
-Tag 8–9: Modell bewerten & verbessern
-Feature Importance analysieren
-Metriken vergleichen: Accuracy, Precision, Recall, Cost
-Hyperparameter-Tuning (GridSearch, falls Zeit)
-🧪 Ziel: Gutes Modell mit nachvollziehbaren Entscheidungen
+- `pandas` für Datenmanipulation
+- `numpy` für numerische Berechnungen
+- `scikit-learn` für Machine Learning Datenaufteilung und Metriken
+- `xgboost` für das Prognosemodell
+- `matplotlib` für Visualisierungen
+- `os` für Dateiorganisation
 
 Tag 10–11: Fehleranalyse & Interpretation
 Fehler nach PSP, Land, Betrag etc. analysieren
